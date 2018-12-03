@@ -1,29 +1,33 @@
 {
   "name": "curso-node",
   "version": "1.0.0",
-  "description": "Desc",
+  "description": "Do zero ao deploy com Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IKokiri/curso-node.git"
+    "url": "git+https://github.com/hugoiuri/curso-node.git"
   },
   "keywords": [
-    "curso",
     "node",
+    "curso",
     "puc"
   ],
-  "author": "Luiz Mendes",
+  "author": "Hugo Iuri",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IKokiri/curso-node/issues"
+    "url": "https://github.com/hugoiuri/curso-node/issues"
   },
-  "homepage": "https://github.com/IKokiri/curso-node#readme",
+  "homepage": "https://github.com/hugoiuri/curso-node#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
     "cors": "^2.8.5",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
   }
 }

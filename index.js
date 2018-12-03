@@ -1,5 +1,6 @@
 const pkg = require('./package.json');
 const server = require('./lib/server');
+
 process.title = pkg.name;
 
 const shutdown = async () => {
